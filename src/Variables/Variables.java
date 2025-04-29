@@ -45,6 +45,24 @@ public class Variables {
         first = 1;
         second = 2;
 
+        // casting
+
+        short varForCasting = byteNumber;
+        System.out.println("After casting : " + varForCasting);
+
+        int newVarCasting = varForCasting;
+        System.out.println("After casting newVarCasting: " + newVarCasting);
+
+        int newVariable = 6_000_012;
+        byte newVarCast = (byte) newVariable;
+        System.out.println("After casting int to byte : " + newVarCast);
+
+        double doubleVar = 23.3456;
+        int intVar = (int) doubleVar;
+        System.out.println("After casting double to int : " + intVar);
+
+
+
 
     }
 }
