@@ -15,5 +15,24 @@ public class Operators {
         int quotient = a / b;
         int remainder = a % b;
 
+        a++; //инкремент (+1)
+        a--; //декремент (-1)
+
+        //a=a*4
+        a += 4;
+        b -= 2; // b-2
+        a *= 4;
+        b /= 3;
+
+        //операции сравнения
+
+        boolean isEqual = a == b;
+        boolean isNotEqual = a != b;
+        boolean isGreater = a > b;
+        boolean isGreaterOrEqual = a >= b;
+        boolean isLess = a < b;
+        boolean isLessOrEqual = a <= b;
+
+
     }
 }
